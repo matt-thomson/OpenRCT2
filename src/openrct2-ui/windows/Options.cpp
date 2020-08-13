@@ -1743,7 +1743,6 @@ static void window_options_invalidate(rct_window* w)
                 rct_string_id stringId;
                 switch (gConfigGeneral.measurement_format)
                 {
-                    default:
                     case MeasurementFormat::Imperial:
                         stringId = STR_IMPERIAL;
                         break;

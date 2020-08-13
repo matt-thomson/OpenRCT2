@@ -902,7 +902,6 @@ static void format_velocity(char** dest, size_t* size, uint16_t value)
 
     switch (gConfigGeneral.measurement_format)
     {
-        default:
         case MeasurementFormat::Imperial:
             stringId = STR_UNIT_SUFFIX_MILES_PER_HOUR;
             break;
